@@ -1,3 +1,4 @@
 git init - dieser Befehl erstellt ein Git repository
 git add - fügt eine Datei in die Staging Area hinzu (markiert die Datei)
 git commit -m"Bemerkung" -fügt die Datei zum repository hinzu
+git status -zeigt den Status an
