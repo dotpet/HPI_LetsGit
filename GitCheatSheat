@@ -5,3 +5,5 @@ git status -zeigt den Status an
 git rm - entfernt eine Datei aus dem Arbeitsbaum und löscht die Datei, das rm muss aber noch committed werden
 git rm --cached <file> - entfernt die Datei aus dem Arbeitsbaum aber erhält die Datei
 git reset HEAD <file> - unstage ein Datei (also add rückwärts)
+git remote add origin https://github.com/dotpet/HPI_LetsGit.git  - zeigt von einem lokalen repo auf ein Online repo bei GitHub
+git push -origin master -pusht das lokale repo rüber auf GitHub
