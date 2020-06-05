@@ -7,3 +7,5 @@ git rm --cached <file> - entfernt die Datei aus dem Arbeitsbaum aber erhält die
 git reset HEAD <file> - unstage ein Datei (also add rückwärts)
 git remote add origin https://github.com/dotpet/HPI_LetsGit.git  - zeigt von einem lokalen repo auf ein Online repo bei GitHub
 git push -origin master -pusht das lokale repo rüber auf GitHub
+git fetch - holt das online repo zurück auf den Rechner 
+git merge origing/master - fügt das über fetch geholte repo in mein lokale repo
