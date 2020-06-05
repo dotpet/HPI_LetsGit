@@ -2,5 +2,6 @@ git init - dieser Befehl erstellt ein Git repository
 git add - fügt eine Datei in die Staging Area hinzu (markiert die Datei)
 git commit -m"Bemerkung" -fügt die Datei zum repository hinzu
 git status -zeigt den Status an
-git rm - entfernt eine Datei aus dem Arbeitsbaum und löscht die Datei, aber noch commit
-git rm --cached NeuerTest - entfernt die Datei aus dem Arbeitsbaum aber erhält die Datei
+git rm - entfernt eine Datei aus dem Arbeitsbaum und löscht die Datei, das rm muss aber noch committed werden
+git rm --cached <file> - entfernt die Datei aus dem Arbeitsbaum aber erhält die Datei
+git reset HEAD <file> - unstage ein Datei (also add rückwärts)
