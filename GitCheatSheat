@@ -1,3 +1,5 @@
+BASICS
+
 git init - dieser Befehl erstellt ein Git repository
 git add - fügt eine Datei in die Staging Area hinzu (markiert die Datei)
 git commit -m"Bemerkung" -fügt die Datei zum repository hinzu
@@ -10,3 +12,10 @@ git push -origin master -pusht das lokale repo rüber auf GitHub (einmal geadded
 git fetch - holt das online repo zurück auf den Rechner 
 git merge origing/master - fügt das über fetch geholte repo in mein lokale repo
 git pull - macht in einem Zug git fetch und git merge
+
+BRANCHES
+git branch "listen" - erzeugt einen neuen Branch namens listen
+git git checkout listen - läst den HEAD (Zeiger) auf listen zeigen statt auf master wie bisher
+git checkout -b listen - git branch + git checkout in einem command
+git push --set-upstream origin listen  : erzeugt neuen branch auf GITHUB und übergibt alle Dateien im Repo
+
