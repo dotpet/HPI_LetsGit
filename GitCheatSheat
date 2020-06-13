@@ -19,3 +19,6 @@ git git checkout listen - läst den HEAD (Zeiger) auf listen zeigen statt auf ma
 git checkout -b listen - git branch + git checkout in einem command
 git push --set-upstream origin listen  : erzeugt neuen branch auf GITHUB und übergibt alle Dateien im Repo
 
+git merge - verbindet C3 und C4 zu C5
+git log - zeigt die Historie des Repos
+
