@@ -22,3 +22,9 @@ git push --set-upstream origin listen  : erzeugt neuen branch auf GITHUB und üb
 git merge - verbindet C3 und C4 zu C5
 git log - zeigt die Historie des Repos
 
+KORREKTUREN
+git commit --amend  - Korrektur der CommitMessage (Textfenster geht auf)
+git commit --amend -m"KorrekterText" - korrigiert direkt die Textnachricht
+git reset HEAD <filename> -- unstagged eine bereits commitete Datei 
+git checkout  --<filename> - verwirft die Änderungen in der Datei !! auch auf dem lokalen Laufwerk
+ 
